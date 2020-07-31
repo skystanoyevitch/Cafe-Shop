@@ -1,0 +1,71 @@
+.hero {
+  background: linear-gradient(139.71deg, rgba(129, 109, 92, 0.73) 48.56%, rgba(0, 0, 0, 0.54) 94.17%), url("images1/menupage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero .hero-head .navbar {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hero .hero-head .navbar .navbar-menu {
+  width: 100%;
+}
+
+.hero .hero-head .navbar .navbar-end .navbar-item {
+  font-family: 'Source Code Pro', monospace;
+  left: 250px;
+  padding: 0 50px 0 10px;
+  color: #F0F0FC;
+}
+
+.hero .hero-body .title {
+  text-align: center;
+  color: #67BB83;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.58);
+}
+
+.hero .hero-body .subtitle {
+  color: #F0F0FC;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 41px;
+  letter-spacing: -0.01em;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+  position: absolute;
+}
+
+.menu-tabs .container #espresso {
+  background-image: url("./images1/espresso.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7px;
+}
+
+.menu-tabs .container #espresso2 {
+  background-image: url("./images1/s558175882703137928_p36_i1_w2150.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7px;
+}
+
+.menu-tabs .container #espresso3 {
+  background-image: url("./images1/s558175882703137928_p76_i1_w2031.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7px;
+}
+
+.menu-tabs .container #espresso4 {
+  background-image: url("./images1/s558175882703137928_p78_i2_w2560.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7px;
+}
+/*# sourceMappingURL=menu_style.css.map */

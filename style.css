@@ -1,0 +1,125 @@
+.hero {
+  background: radial-gradient(62.81% 65.82% at 37.63% 32.2%, rgba(255, 255, 255, 0) 96.12%, #FFFFFF 100%), url("images1/coffeemain.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: contrast(111%) brightness(107%) saturate(149%);
+          filter: contrast(111%) brightness(107%) saturate(149%);
+}
+
+.hero .hero-head .navbar {
+}
+
+.hero .hero-head .navbar .navbar-menu {
+  width: 100%;
+}
+
+.hero .hero-head .navbar .navbar-end .navbar-item {
+  font-family: 'Source Code Pro', monospace;
+  left: 250px;
+  padding: 0 50px 0 10px;
+  color: #F0F0FC;
+}
+
+.hero .hero-body .title {
+  color: #67BB83;
+  position: absolute;
+  bottom: 50px;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.58);
+}
+
+.hero .hero-body .subtitle {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 41px;
+  letter-spacing: -0.01em;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+  position: absolute;
+  width: 50%;
+  height: 500px;
+}
+
+.hero .hero-body .subtitle #coffee {
+  color: #A54F05;
+}
+
+.hero .hero-body .subtitle #tea {
+  color: #177E35;
+}
+
+.hero .hero-body .subtitle #smoothies {
+  color: #8D116B;
+}
+
+.hero .hero-body .subtitle #juice {
+  color: #BF9B19;
+}
+
+.hero .hero-body .subtitle #bakery {
+  color: #11297B;
+}
+
+.hero .hero-body .subtitle #sammiches {
+  color: #9A649E;
+}
+
+.about-us .content .subtitle {
+  color: #67BB83;
+}
+
+.about-us .content .about-text {
+  font-family: 'Raleway',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 33px;
+  letter-spacing: 0.115em;
+}
+
+.about-us .content .about-text .is-size-3 {
+  color: #000000;
+}
+
+.about-us .content figure {
+  margin-right: 0;
+  margin-left: 0;
+  border-radius: 7px;
+  -webkit-box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.71);
+          box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.71);
+}
+
+.ingredients .content .subtitle {
+  color: #67BB83;
+}
+
+.ingredients .content .ingredients-text {
+  font-family: 'Raleway',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 33px;
+  letter-spacing: 0.115em;
+}
+
+.ingredients .content .ingredients-text .is-size-3 {
+  color: #000000;
+}
+
+.ingredients .content figure {
+  margin-right: 0;
+  margin-left: 0;
+  border-radius: 7px;
+  -webkit-box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.71);
+          box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.71);
+}
+
+.contact-us .container #map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
+/*# sourceMappingURL=style.css.map */

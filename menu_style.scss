@@ -1,0 +1,78 @@
+$title-color: #67BB83;
+$sub-color: #000000;
+$nav-text-primary: #F0F0FC;
+
+
+.hero{
+    background: linear-gradient(139.71deg, rgba(129, 109, 92, 0.73) 48.56%, rgba(0, 0, 0, 0.54) 94.17%),  url("images1/menupage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .hero-head .navbar {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+        background-color: rgba($color: #000000, $alpha: 0.2);
+
+
+        .navbar-menu{
+            width: 100%;
+        }
+
+        .navbar-end .navbar-item{
+            font-family: 'Source Code Pro', monospace;
+            left: 250px;
+            padding: 0 50px 0 10px ;
+            color: $nav-text-primary;
+        }
+
+        
+    }
+    .hero-body {
+        .title{
+            text-align: center;
+            color: $title-color;
+            text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.58);       
+        }
+        
+        .subtitle{
+            color: $nav-text-primary;
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 23px;
+            line-height: 41px;
+            letter-spacing: -0.01em;
+            transform: matrix(1, 0, 0, 1, 0, 0); 
+            position: absolute;
+        }
+    
+    
+    }
+}
+
+.menu-tabs .container{
+        #espresso{
+        background-image: url("./images1/espresso.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 7px;
+    }
+        #espresso2{
+        background-image: url("./images1/s558175882703137928_p36_i1_w2150.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 7px;
+    }
+        #espresso3{
+        background-image: url("./images1/s558175882703137928_p76_i1_w2031.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 7px;
+    }
+        #espresso4{
+        background-image: url("./images1/s558175882703137928_p78_i2_w2560.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 7px;
+    }
+}

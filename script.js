@@ -11,7 +11,6 @@ function initMap() {
 // Hamburger Menu expandable click function
 
 $(document).ready(function () {
-    let tabItem = $(".is-tab")
     // Check for click events on the navbar burger icon
     $(".navbar-burger").click(function () {
         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
@@ -19,12 +18,6 @@ $(document).ready(function () {
         $(".navbar-menu").toggleClass("is-active");
         $(".navbar-menu").css({
         "box-shadow": "0px 4px 4px rgba(0, 0, 0, 0.45)",
-        "background-color": "transparent",
-
-    });
-    tabItem.css({"color":"black",
-    "left":"100px"
-
-})
+        "background-color": "transparent",});
 });
 });

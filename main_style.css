@@ -11,6 +11,10 @@ html {
           filter: contrast(111%) brightness(107%) saturate(149%);
 }
 
+.hero-head .navbar-item img {
+  max-height: 3rem;
+}
+
 .hero-body .title {
   color: #67BB83;
   bottom: 50px;

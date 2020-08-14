@@ -19,6 +19,11 @@ html{
 
 }
 
+.hero-head{
+    .navbar-item img{
+        max-height: 3rem;
+    }
+}
 .hero-body {
     .title{
         color: $title-color;

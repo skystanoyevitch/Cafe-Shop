@@ -19,6 +19,10 @@ html{
 
 }
 
+.navbar-end a{
+    color: $sub-color;
+}
+
 .hero-head{
     .navbar-item img{
         max-height: 3rem;

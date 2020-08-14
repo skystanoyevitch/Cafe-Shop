@@ -1,3 +1,4 @@
+
 $title-color: #67BB83;
 $sub-color: #000000;
 $nav-text-primary: #F0F0FC;
@@ -5,24 +6,32 @@ $nav-text-primary: #F0F0FC;
 
 html{
     scroll-behavior: smooth;
-
+}
 
 
 // Hero main page
 .hero {
-    background: radial-gradient(62.81% 65.82% at 37.63% 32.2%, rgba(255, 255, 255, 0) 96.12%, #FFFFFF 100%), url("images1/coffeemain.jpg");
+    background: radial-gradient(62.81% 65.82% at 37.63% 32.2%, rgba(255, 255, 255, 0) 96.12%, #FFFFFF 100%), url("./images1/coffeemain.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     filter: contrast(111%) brightness(107%) saturate(149%);
     
-    .hero-head .navbar-menu ::before{
-        // display: none;
-        // &::after{
-        //     display: ;;
-        // }
+    // .hero-head .navbar-menu ::before{
+    //     display: none;
+    //     &::after{
+    //         display: ;;
+    //     }
         
+    // }
+}
+
+.hero-head{
+    .navbar-item img {
+        max-height: none;
     }
+}
+
 .hero-body {
     .title{
         color: $title-color;
@@ -45,25 +54,9 @@ html{
         #coffee{
             color: #A54F05;
         }
-        #tea{
-            color: #177E35;
-        }
-        #smoothies{
-            color: #8D116B;
-        }
-        #juice{
-            color: #BF9B19;
-        }
-        #bakery{
-            color: #11297B;
-        }
-        #sammiches{
-            color: #9A649E;
-        }
     }
 
 
-}
 }
 
 .about-us .content{
@@ -138,4 +131,4 @@ html{
             background-color: grey;
         }
     }
-}
+

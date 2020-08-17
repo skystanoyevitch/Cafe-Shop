@@ -11,7 +11,7 @@
         rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="/script.js"></script>
-    <title>Skybound Coffee + Lounge</title>
+    <title>Sky's Coffee + Lounge</title>
 </head>
 
 <body>
@@ -322,16 +322,14 @@
                 <div class="column is-6 g_maps">
                     <div class="tabs is-boxed">
                         <ul>
-                            <li>
+                            <li id="va_toggle" >
                                 <a>
-                                    <span class="icon is-small"><i class="fas fa-image" aria-hidden="true"></i></span>
-                                    <span>Vista</span>
+                                    <span onclick="openVista()">Vista</span>
                                 </a>
                             </li>
-                            <li>
+                            <li id="cb_toggle">
                                 <a>
-                                    <span class="icon is-small"><i class="fas fa-music" aria-hidden="true"></i></span>
-                                    <span>Carlsbad</span>
+                                    <span onclick="openCarlsbad()">Carlsbad</span>
                                 </a>
                             </li>
                         </ul>

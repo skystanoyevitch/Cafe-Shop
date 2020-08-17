@@ -1,8 +1,6 @@
 
 
-
-
-// Google Maps API call
+//  Default Google Maps API call
 function initMap() {
     var vista = { lat: 33.165017, lng: -117.246241 };
     var map = new google.maps.Map(document.getElementById("map"), {
@@ -11,6 +9,30 @@ function initMap() {
     });
     var marker = new google.maps.Marker({ position: vista, map: map });
 }
+
+// Function for opening Maps in each Tab
+function openVista(){
+    $('#va_toggle').toggleClass('is-active');
+    var vista = { lat: 33.165017, lng: -117.246241 };
+    var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 17,
+        center: vista,
+    });
+    var marker = new google.maps.Marker({ position: vista, map: map });
+
+}
+
+function openCarlsbad(){
+    $('#cb_toggle').toggleClass('is-active');
+    var carlsbad = { lat: 33.154593, lng: -117.350977 };
+    var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 15,
+        center: carlsbad,
+    });
+    var marker = new google.maps.Marker({ position: carlsbad, map: map });
+
+}
+
 
 // Hamburger Menu expandable click function
 

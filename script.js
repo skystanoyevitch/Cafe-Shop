@@ -1,8 +1,12 @@
+
+
+
+
 // Google Maps API call
 function initMap() {
     var vista = { lat: 33.165017, lng: -117.246241 };
     var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 8,
+        zoom: 17,
         center: vista,
     });
     var marker = new google.maps.Marker({ position: vista, map: map });

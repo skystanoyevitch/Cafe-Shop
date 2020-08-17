@@ -76,15 +76,19 @@ html{
         margin-right: 0;
         margin-left: 0;
         border-radius: 7px;
-        box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.25);
-    
+        box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.50);
+    img{
+        
+        display: inherit;
+        border-radius: 7px;
+    }
     }
     
 }
 
 
     #imageQ{
-        border: 5px solid red;
+        // border: 5px solid red;
         background-image: url("images1/coffee_beans.jpg");
     }
 
@@ -94,13 +98,11 @@ html{
     .subtitle{
             color: $title-color;
             }
-    .ingredients-text{
+    p{
     font-family: 'Raleway',sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 23px;
-    line-height: 33px;
-    letter-spacing: 0.115em;
+    font-size: 1.3rem;
 
     .is-size-3{
         color: $sub-color;
@@ -113,9 +115,12 @@ html{
     margin-right: 0;
     margin-left: 0;
     border-radius: 7px;
-    box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.71);
+    box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.50);
+    img{
+        display: inherit;
+        border-radius: 7px;
+    }
 }
-
 
     }
     

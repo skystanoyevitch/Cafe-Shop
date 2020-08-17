@@ -62,12 +62,16 @@ html {
   margin-right: 0;
   margin-left: 0;
   border-radius: 7px;
-  -webkit-box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.25);
-          box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.25);
+  -webkit-box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.5);
+          box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.5);
+}
+
+.about-us .content figure img {
+  display: inherit;
+  border-radius: 7px;
 }
 
 #imageQ {
-  border: 5px solid red;
   background-image: url("images1/coffee_beans.jpg");
 }
 
@@ -75,16 +79,14 @@ html {
   color: #67BB83;
 }
 
-.ingredients .content .ingredients-text {
+.ingredients .content p {
   font-family: 'Raleway',sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 23px;
-  line-height: 33px;
-  letter-spacing: 0.115em;
+  font-size: 1.3rem;
 }
 
-.ingredients .content .ingredients-text .is-size-3 {
+.ingredients .content p .is-size-3 {
   color: #000000;
 }
 
@@ -92,8 +94,13 @@ html {
   margin-right: 0;
   margin-left: 0;
   border-radius: 7px;
-  -webkit-box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.71);
-          box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.71);
+  -webkit-box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.5);
+          box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.5);
+}
+
+.ingredients .content figure img {
+  display: inherit;
+  border-radius: 7px;
 }
 
 .contact-us .container #map {

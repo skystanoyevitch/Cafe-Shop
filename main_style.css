@@ -62,13 +62,22 @@ html {
   margin-right: 0;
   margin-left: 0;
   border-radius: 7px;
-  -webkit-box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.5);
-          box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.5);
 }
 
 .about-us .content figure img {
   display: inherit;
   border-radius: 7px;
+  -webkit-box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.5);
+          box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.5);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.about-us .content figure img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.2);
+          box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.2);
 }
 
 .ingredients .content .subtitle {
@@ -90,13 +99,22 @@ html {
   margin-right: 0;
   margin-left: 0;
   border-radius: 7px;
-  -webkit-box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.5);
-          box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.5);
 }
 
 .ingredients .content figure img {
   display: inherit;
   border-radius: 7px;
+  -webkit-box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.5);
+          box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.5);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.ingredients .content figure img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.2);
+          box-shadow: -8px 9px 6px rgba(3, 0, 0, 0.2);
 }
 
 .contact-us .container #map {

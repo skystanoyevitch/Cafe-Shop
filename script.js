@@ -67,6 +67,22 @@ $(document).ready(function () {
         $('.modal').toggleClass('is-active')
         $('.modal-content').prepend('<img src="./images1/barista.jpg">')
     }
+    function imgModal5(){
+        $('.modal').toggleClass('is-active')
+        $('.modal-content').prepend('<img src="./images1/beans_.jpg">')
+    }
+    function imgModal6(){
+        $('.modal').toggleClass('is-active')
+        $('.modal-content').prepend('<img src="./images1/milk_.jpg">')
+    }
+    function imgModal7(){
+        $('.modal').toggleClass('is-active')
+        $('.modal-content').prepend('<img src="./images1/tea_.jpg">')
+    }
+    function imgModal8(){
+        $('.modal').toggleClass('is-active')
+        $('.modal-content').prepend('<img src="./images1/watercoffee.jpg">')
+    }
     function closeModal(){
             $('.modal').removeClass('is-active');
             $(".modal-content img:last-child").remove()

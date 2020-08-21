@@ -87,3 +87,18 @@ $(document).ready(function () {
             $('.modal').removeClass('is-active');
             $(".modal-content img:last-child").remove()
     }
+
+    function validateForm() {
+        var subj = $('#subject');
+        var textMsg = $('#message');
+        var lName = $('#lastName');
+        var errorMsg = $('.errorFn');
+        var fName = $('#firstName');
+        if (fName.val() === "" && lName.val() === "" && subj.val() === "" && textMsg.val() === "") {
+            errorMsg.removeClass('is-hidden');
+            }
+            else{
+                errorMsg.addClass('is-hidden');
+                alert(fName.val() + " " + lName.val() + " " + subj.val() + " " + textMsg.val());
+            }
+        }

@@ -56,35 +56,35 @@ $(document).ready(function () {
         $('.modal-content').prepend('<img src="./images1/organic.jpg">')
     }
     function imgModal2(){
-        $('.modal').toggleClass('is-active')
+        $('.modal').toggleClass('is-active').addClass('animate__animated animate__fadeIn animate__faster	500ms');
         $('.modal-content').prepend('<img src="./images1/coffee_beans.jpg">')
     }
     function imgModal3(){
-        $('.modal').toggleClass('is-active')
+        $('.modal').toggleClass('is-active').addClass('animate__animated animate__fadeIn animate__faster	500ms');
         $('.modal-content').prepend('<img src="./images1/community.jpg">')
     }
     function imgModal4(){
-        $('.modal').toggleClass('is-active')
+        $('.modal').toggleClass('is-active').addClass('animate__animated animate__fadeIn animate__faster	500ms');
         $('.modal-content').prepend('<img src="./images1/barista.jpg">')
     }
     function imgModal5(){
-        $('.modal').toggleClass('is-active')
+        $('.modal').toggleClass('is-active').addClass('animate__animated animate__fadeIn animate__faster	500ms');
         $('.modal-content').prepend('<img src="./images1/beans_.jpg">')
     }
     function imgModal6(){
-        $('.modal').toggleClass('is-active')
+        $('.modal').toggleClass('is-active').addClass('animate__animated animate__fadeIn animate__faster	500ms');
         $('.modal-content').prepend('<img src="./images1/milk_.jpg">')
     }
     function imgModal7(){
-        $('.modal').toggleClass('is-active')
+        $('.modal').toggleClass('is-active').addClass('animate__animated animate__fadeIn animate__faster	500ms');
         $('.modal-content').prepend('<img src="./images1/tea_.jpg">')
     }
     function imgModal8(){
-        $('.modal').toggleClass('is-active')
+        $('.modal').toggleClass('is-active').addClass('animate__animated animate__fadeIn animate__faster	500ms');
         $('.modal-content').prepend('<img src="./images1/watercoffee.jpg">')
     }
     function closeModal(){
-            $('.modal').removeClass('is-active');
+            $('.modal').removeClass('is-active').addClass('animate__animated animate__fadeIn animate__faster	500ms');
             $(".modal-content img:last-child").remove()
     }
 

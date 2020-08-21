@@ -52,7 +52,7 @@ $(document).ready(function () {
     
     
     function imgModal1(){
-        $('.modal').toggleClass('is-active')
+        $('.modal').toggleClass('is-active').addClass('animate__animated animate__fadeIn animate__faster	500ms');
         $('.modal-content').prepend('<img src="./images1/organic.jpg">')
     }
     function imgModal2(){

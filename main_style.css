@@ -43,6 +43,12 @@ html {
   color: #A54F05;
 }
 
+@media screen and (max-width: 600px) {
+  .hero-body .subtitle {
+    width: 100%;
+  }
+}
+
 .about-us .content .subtitle {
   color: #67BB83;
 }

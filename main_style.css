@@ -36,7 +36,7 @@ html {
   -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
           transform: matrix(1, 0, 0, 1, 0, 0);
   width: 50%;
-  height: 500px;
+  height: 35rem;
 }
 
 .hero-body .subtitle #coffee {

@@ -4,17 +4,15 @@
 // Hamburger Menu expandable click function
 
 $(document).ready(function () {
-
     // Check for click events on the navbar burger icon
     $(".navbar-burger").click(function () {
-        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-        $(".navbar-burger").toggleClass("is-active");
-        $(".navbar-menu").toggleClass("is-active");
+
+            $(".navbar-burger").toggleClass("is-active");
+            $(".navbar-menu").toggleClass("is-active animate__animated animate__slideInDown animate__faster 500ms");
         $(".navbar-menu").css({
         "box-shadow": "0px 4px 4px rgba(0, 0, 0, 0.45)",
         "background-color": "transparent"});
-    });
-
+        });
 });
 
     //  Default Google Maps API call

@@ -20,6 +20,7 @@ html{
 }
 
 .navbar-end a{
+    font-family: 'source code pro', monospace;
     color: $sub-color;
 }
 
@@ -30,24 +31,29 @@ html{
 }
 .hero-body {
     .title{
-        color: $title-color;
-        bottom: 50px;
-        text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.58);       
+        font-family: 'Dancing Script', cursive;
+        font-weight: 600;
+        font-size: 5rem;
+        // color: $title-color;
+        // bottom: 50px;
+        // text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.58);       
     }
     
     .subtitle{
         color: $sub-color;
-        font-family: 'Raleway', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 23px;
-        line-height: 41px;
+        font-family: 'Raleway',sans-serif;
+        font-size: 1.5rem;
+        line-height: 150%;
         letter-spacing: -0.01em;
-        transform: matrix(1, 0, 0, 1, 0, 0); 
         width: 50%;
         height: 35rem;
 
+        #p_logo{
+            font-weight: 600;
+        }
+
         #coffee{
+            font-weight: 600;
             color: #A54F05;
         }
 
@@ -61,12 +67,13 @@ html{
 
 .about-us .content{
     .subtitle{
-        color: $title-color;
+        font-family: 'Dancing Script', cursive;
+        font-size: 3rem;
+        font-weight: 600;
         }
     p{
         font-family: 'Raleway',sans-serif;
-        font-style: normal;
-        font-weight: normal;
+        // font-weight: 600;
         font-size: 1.3rem;
     
         .is-size-3{
@@ -96,12 +103,12 @@ html{
 // ingredients page
 .ingredients .content{
     .subtitle{
-            color: $title-color;
+        font-family: 'Dancing Script', cursive;
+        font-size: 3rem;
+        font-weight: 600;
             }
     p{
     font-family: 'Raleway',sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 1.3rem;
 
     .is-size-3{

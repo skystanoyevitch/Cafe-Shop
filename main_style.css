@@ -12,6 +12,7 @@ html {
 }
 
 .navbar-end a {
+  font-family: 'source code pro', monospace;
   color: #000000;
 }
 
@@ -20,26 +21,27 @@ html {
 }
 
 .hero-body .title {
-  color: #67BB83;
-  bottom: 50px;
-  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.58);
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+  font-size: 5rem;
 }
 
 .hero-body .subtitle {
   color: #000000;
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 23px;
-  line-height: 41px;
+  font-family: 'Raleway',sans-serif;
+  font-size: 1.5rem;
+  line-height: 150%;
   letter-spacing: -0.01em;
-  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
-          transform: matrix(1, 0, 0, 1, 0, 0);
   width: 50%;
   height: 35rem;
 }
 
+.hero-body .subtitle #p_logo {
+  font-weight: 600;
+}
+
 .hero-body .subtitle #coffee {
+  font-weight: 600;
   color: #A54F05;
 }
 
@@ -50,13 +52,13 @@ html {
 }
 
 .about-us .content .subtitle {
-  color: #67BB83;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  font-weight: 600;
 }
 
 .about-us .content p {
   font-family: 'Raleway',sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 1.3rem;
 }
 
@@ -87,13 +89,13 @@ html {
 }
 
 .ingredients .content .subtitle {
-  color: #67BB83;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  font-weight: 600;
 }
 
 .ingredients .content p {
   font-family: 'Raleway',sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 1.3rem;
 }
 

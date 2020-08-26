@@ -9,19 +9,15 @@ $nav-text-primary: #F0F0FC;
     background-repeat: no-repeat;
     background-size: cover;
 
-    .hero-head .navbar {
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
-        background-color: rgba($color: #000000, $alpha: 0.2);
+    .hero-head {
 
-
-        .navbar-menu{
-            width: 100%;
+        .navbar-item img{
+            // color: $nav-text-primary;
+            max-height: 3rem;
         }
 
         .navbar-end .navbar-item{
             font-family: 'Source Code Pro', monospace;
-            left: 250px;
-            padding: 0 50px 0 10px ;
             color: $nav-text-primary;
         }
 

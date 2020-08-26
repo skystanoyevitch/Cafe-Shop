@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
     <link rel="stylesheet" href="menu_style.scss">
     <link rel="stylesheet" href="menu_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway&family=Lobster&family=Srisakdi:wght@400;700&family=Dancing+Script&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="menu-script.js"></script>
     <title>Menu</title>
 </head>
 
@@ -50,15 +56,15 @@
         </div>
         <div class="hero-body">
             <div class="container has-text-centered">
-                <h1 class="title is-1">
+                <h1 class="title">
                     Menu
                 </h1>
+                <hr class="solid">
                 <h2 class="subtitle">
-                    Our Sunday brunch at Skybound Coffee + Dessert Lounge has some of the most
+                    Our Sunday brunch at Sky's Coffee + Dessert Lounge has some of the most
                     unique mimosas in the Downtown San Diego area. Serving dragonfruit mimosas,
                     traditional mimosas and for those of you that like options, beer and wine!
-
-                    Our new alcohol beverage options available for your smooth and easy Sunday
+                    Our new alcohol beverage options are available for your smooth and easy Sunday
                     morning are a great compliment to many of the breakfast sandwiches we have
                     to offer. From croisants to bagels and the famous "Make It Your Own" sandwiches.
                 </h2>
@@ -70,17 +76,15 @@
         <div class="container">
             <div class="tabs is-centered">
                 <ul>
-                    <li class="is-active"><a>Italian Preparations</a></li>
-                    <li><a>Hot Coffee</a></li>
-                    <li><a>Cold Coffee</a></li>
-                    <li><a>Tea</a></li>
-                    <li><a>More</a></li>
+                    <li id="italianPrep"><a>Italian Preparations</a></li>
+                    <li id="hotCoffee"><a>Hot Coffee</a></li>
+                    <li id="coldCoffee"><a>Cold Coffee</a></li>
                 </ul>
             </div>
-            <div class="columns is-12 is-multiline">
+            <div class="italian_list columns is-12 is-hidden">
                 <div class="card">
                     <div class="card-image">
-                        <figure id="espsso" class="image is-128x128">
+                        <figure id="espresso" class="image is-128x128">
                         </figure>
                     </div>
                     <div class="card-content">
@@ -116,6 +120,90 @@
                     <div class="card-content">
                         <h1>Espresso</h1>
                         <p>$2.75 - $3.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hotCoffee_list columns is-12 is-hidden">
+                <div class="card">
+                    <div class="card-image">
+                        <figure id="latte" class="image is-128x128">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h1>Latte</h1>
+                        <p>$2.99 - $4.00</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <figure id="dark_choco_latte" class="image is-128x128">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h1>Dark Chocolate Mocha</h1>
+                        <p>$4.75 - $5.75</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <figure id="vanilla_latte" class="image is-128x128">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h1>Vanilla Latte</h1>
+                        <p>$4.00 - $5.00</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <figure id="cali_latte" class="image is-128x128">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h1>VanillaCali Latte</h1>
+                        <p>$4.99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="coldCoffee_list columns is-12 is-hidden">
+                <div class="card">
+                    <div class="card-image">
+                        <figure id="cold_brew" class="image is-128x128">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h1>Cold Brew</h1>
+                        <p>$4.00</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <figure id="iced_coffee" class="image is-128x128">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h1>Iced Coffee</h1>
+                        <p>$3.75</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <figure id="frappaccino" class="image is-128x128">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h1>Frappaccino</h1>
+                        <p>$5.50</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <figure id="iced_americano" class="image is-128x128">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <h1>Iced Americano</h1>
+                        <p>$3.99</p>
                     </div>
                 </div>
             </div>

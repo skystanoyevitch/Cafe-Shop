@@ -1,5 +1,5 @@
 .hero {
-  background: linear-gradient(139.71deg, rgba(129, 109, 92, 0.73) 48.56%, rgba(0, 0, 0, 0.54) 94.17%), url("images1/menupage.jpg");
+  background: linear-gradient(139.71deg, rgba(129, 109, 92, 0.93) 18.56%, rgba(0, 0, 0, 0.94) 99.17%), url("images1/menupage.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,22 +15,21 @@
 }
 
 .hero .hero-body .title {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+  font-size: 7rem;
   text-align: center;
-  color: #67BB83;
+  color: #F0F0FC;
   text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.58);
 }
 
 .hero .hero-body .subtitle {
   color: #F0F0FC;
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 23px;
-  line-height: 41px;
+  font-size: 1.5rem;
+  line-height: 150%;
   letter-spacing: -0.01em;
-  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
-          transform: matrix(1, 0, 0, 1, 0, 0);
-  position: absolute;
+  height: 30rem;
 }
 
 .menu-tabs .container #espresso {
@@ -56,6 +55,62 @@
 
 .menu-tabs .container #espresso4 {
   background-image: url("./images1/s558175882703137928_p78_i2_w2560.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7px;
+}
+
+.menu-tabs .container #latte {
+  background-image: url("./images1/latte_.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7px;
+}
+
+.menu-tabs .container #dark_choco_latte {
+  background-image: url("./images1/dark_choco_latte.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7px;
+}
+
+.menu-tabs .container #vanilla_latte {
+  background-image: url("./images1/vanilla_latte.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7px;
+}
+
+.menu-tabs .container #cali_latte {
+  background-image: url("./images1/cali_latte.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7px;
+}
+
+.menu-tabs .container #cold_brew {
+  background-image: url("./images1/cold_brew.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7px;
+}
+
+.menu-tabs .container #iced_coffee {
+  background-image: url("./images1/iced_coffee.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7px;
+}
+
+.menu-tabs .container #frappaccino {
+  background-image: url("./images1/frappacino.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7px;
+}
+
+.menu-tabs .container #iced_americano {
+  background-image: url("./images1/iced_americano.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 7px;

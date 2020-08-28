@@ -46,6 +46,14 @@ $nav-text-primary: #F0F0FC;
 }
 
 .menu-tabs .container{
+    .card{
+        margin: 20px;
+        padding: 10px;
+        box-shadow: none;
+    }
+    // .card-content{
+        // width: 50%;
+    // }
         #espresso{
         background-image: url("./images1/espresso.jpeg");
         background-repeat: no-repeat;
@@ -76,7 +84,7 @@ $nav-text-primary: #F0F0FC;
         background-size: cover;
         border-radius: 7px;
     }
-        #dark_choco_latte{
+        #dark_choco_latte {
         background-image: url("./images1/dark_choco_latte.jpeg");
         background-repeat: no-repeat;
         background-size: cover;

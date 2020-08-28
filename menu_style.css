@@ -32,6 +32,13 @@
   height: 30rem;
 }
 
+.menu-tabs .container .card {
+  margin: 20px;
+  padding: 10px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .menu-tabs .container #espresso {
   background-image: url("./images1/espresso.jpeg");
   background-repeat: no-repeat;

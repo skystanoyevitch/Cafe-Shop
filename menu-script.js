@@ -1,10 +1,5 @@
 // Menu Tabs Content fucntionality for viewing items
 $(document).ready(function () {
-    // const italianHide = $("#italianPrep").addClass('is-active');
-    // const hcHide = $("#hotCoffee").addClass('is-active');
-    // const ccHide = $("#coldCoffee").addClass('is-active');
-    // const teaHide = $("#tea").addClass('is-active');
-
     $('#italianPrep').click(function(){
         $('.hotCoffee_list, .coldCoffee_list').addClass('is-hidden');
         $('#hotCoffee, #coldCoffee').removeClass('is-active');

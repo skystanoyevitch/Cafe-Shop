@@ -3,7 +3,7 @@ html {
 }
 
 .hero {
-  background: radial-gradient(62.81% 65.82% at 37.63% 32.2%, rgba(255, 255, 255, 0) 96.12%, #FFFFFF 100%), url("./images1/coffeemain.jpg");
+  background: radial-gradient(62.81% 65.82% at 37.63% 32.2%, rgba(255, 255, 255, 0) 96.12%, #ffffff 100%), url("./images1/coffeemain.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,8 +12,15 @@ html {
 }
 
 .navbar-end a {
-  font-family: 'source code pro', monospace;
-  color: #000000;
+  /* font-family: "source code pro", monospace; */
+  color: #222222;
+}
+
+.navbar-end a:hover {
+
+    transform: scale(1.3);
+    transition-duration: 0.5s; 
+  
 }
 
 .hero-head .navbar-item img {
@@ -21,14 +28,14 @@ html {
 }
 
 .hero-body .title {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-weight: 600;
   font-size: 5rem;
 }
 
 .hero-body .subtitle {
   color: #000000;
-  font-family: 'Raleway',sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.5rem;
   line-height: 150%;
   letter-spacing: -0.01em;
@@ -42,7 +49,7 @@ html {
 
 .hero-body .subtitle #coffee {
   font-weight: 600;
-  color: #A54F05;
+  color: #a54f05;
 }
 
 @media screen and (max-width: 600px) {
@@ -52,13 +59,13 @@ html {
 }
 
 .about-us .content .subtitle {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 3rem;
   font-weight: 600;
 }
 
 .about-us .content p {
-  font-family: 'Raleway',sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.3rem;
 }
 
@@ -89,13 +96,13 @@ html {
 }
 
 .ingredients .content .subtitle {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 3rem;
   font-weight: 600;
 }
 
 .ingredients .content p {
-  font-family: 'Raleway',sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.3rem;
 }
 

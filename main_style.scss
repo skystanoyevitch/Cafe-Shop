@@ -21,8 +21,12 @@ html {
 }
 
 .navbar-end a {
-	font-family: "source code pro", monospace;
+	// font-family: "source code pro", monospace;
 	color: $sub-color;
+
+	&:hover {
+		font-weight: bold;
+	}
 }
 
 .hero-head {
